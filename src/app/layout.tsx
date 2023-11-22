@@ -23,6 +23,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en" style={{ minWidth: viewport === 'desktop' ? '1200px' : '100vw' }}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
