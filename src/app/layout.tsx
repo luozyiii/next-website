@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Inter } from 'next/font/google';
 import UAParser from 'ua-parser-js';
+import '@/styles/tailwind.css';
 
 const inter = Inter({ subsets: ['latin'] });
 

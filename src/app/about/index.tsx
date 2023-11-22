@@ -1,3 +1,3 @@
 export default function About() {
-  return <>about pc</>;
+  return <>pc about</>;
 }
