@@ -1,4 +1,4 @@
-import styles from "./h5.module.scss";
+import styles from './h5.module.scss';
 
 const Mobile = () => {
   return (

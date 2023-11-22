@@ -1,12 +1,12 @@
 module.exports = {
   plugins: {
-    "postcss-px-to-viewport": {
-      unitToConvert: "px",
+    'postcss-px-to-viewport': {
+      unitToConvert: 'px',
       viewportWidth: 750,
       unitPrecision: 5,
-      propList: ["*"],
-      viewportUnit: "vw",
-      fontViewportUnit: "vw",
+      propList: ['*'],
+      viewportUnit: 'vw',
+      fontViewportUnit: 'vw',
       selectorBlackList: [],
       minPixelValue: 1,
       mediaQuery: false,
@@ -14,7 +14,7 @@ module.exports = {
       // exclude: [/src[\\/].*index\.module\.scss/, /src[\\/]styles[\\/].*/],
       exclude: [/node_modules/, /src(?![\\/].*\/h5\.module\.scss$)[\\/].*/],
       landscape: false,
-      landscapeUnit: "vw",
+      landscapeUnit: 'vw',
       landscapeWidth: 568,
     },
     tailwindcss: {},
